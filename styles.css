@@ -1,0 +1,88 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 10px 10px 30px 10px;
+    text-align: center;
+    background-image: linear-gradient(darkblue,#E63946,#1D3557, darkblue); 
+    color: white;
+}
+
+#header {
+    margin: 0 20px;
+    color: red;
+    background-image: url("images/citylove.gif");
+    background-size: cover;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.incr {
+    font-size:57px
+}
+a{
+    color: white;
+}
+#Eboy{
+    width: 200px;
+}
+
+img {
+    align-content: center;
+    width: 100px;
+}
+
+.P {
+    margin-top: 1px;
+}
+
+#Light {
+    animation: color-change 1s infinite
+}
+@keyframes color-change {
+    0% { color: white;}
+    25% {color: yellow}
+    50% {color: gold;}
+    100% {color: white;}
+}
+
+#li {
+    animation: color-change 3s infinite
+}
+@keyframes color-change {
+    0% { color: paleturquoise;}
+    25% {color: purple}
+    50% {color: orange;}
+    100% {color: red;}
+}
+
+.incr {
+    animation: color-change 3s infinite
+}
+@keyframes color-change {
+    0% { color: paleturquoise;}
+    25% {color: purple}
+    50% {color: orange;}
+    100% {color: red;}
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Eng {
+    color: gold;
+}
+
